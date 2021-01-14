@@ -42,7 +42,7 @@ p{
 }
 
 .for_btn_shopping img{
-    width: 20px;
+    width: 30px;
 }
 
 .for_h1_color , .for_price{
@@ -58,16 +58,19 @@ p{
     cursor: pointer;
 }
 
+
 /* ################## For Card Styling ################## */
 
 .shoe_card{
     border: 0;
     padding-top: 20px;
-    border-radius: 20px;
+    border-radius: 20px !important;
     box-shadow: 0px 10px 30px;
+    background-color: red;
 }
 
 .shoe_card img{
+    
     width: 350px;
     border-radius: 15px;
     background-color: whitesmoke;
@@ -75,7 +78,8 @@ p{
 }
 
 .shoe_card_footer{
-    border: 0;
+    border: 0 !important;
+    background-color: white !important;
     border-radius: 20px !important;
 }
 
@@ -91,11 +95,16 @@ p{
 }
 
 .row_icon{
-    width: 100%;
+    margin-bottom: 5px;
     border-radius: 20px;
     background-color: white;
-    box-shadow: 0px 0px 5px 0;
+    box-shadow: 1px 1px 20px 5px whitesmoke;
 }
 .row_icon img{
     width: 100%;
+}
+
+.for_border_contact{
+    border: 1px dotted gainsboro;
+    border-radius: 5px;
 }
