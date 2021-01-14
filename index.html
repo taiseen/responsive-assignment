@@ -1,30 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
-    <header>
-        <nav>
 
+    <header class="container_bg pb-5 pt-3">
+
+        <!-- ################ Menu Bar ################  -->
+        <nav class="container navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid for_header_logo">
+                <a class="navbar-brand" href="#">
+                    <img class="img-thumbnail" src="icon/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav px-5 for_aTag">
+                        <a class="nav-link" href="#home">Home</a>
+                        <a class="nav-link" href="#product">Product</a>
+                        <a class="nav-link" href="#about_us">About us</a>
+                        <a class="nav-link" href="#contact_us">Contact us</a>
+                    </div>
+                </div>
+            </div>
         </nav>
 
+        <!-- ################ Big Logo Area ################  -->
+        <section>
+            <div class="container">
+                <div class="row ">
+                    <!-- Big Image -->
+                    <div class="col-md-6 for_big_logo pe-5">
+                        <img class="img-thumbnail img-fluid" src="img/banar_logo.png" alt="">
+                    </div>
+                    <!-- Big Context -->
+                    <div class="col-md-6 pt-5 ps-5">
+                        <div class="p-3 for_btn_shopping">
+                            <h1 class="for_h1_text for_h1_color">Nike React</h1>
+                            <h1 class="for_h1_text">Infinity Run 2</h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                <img src="icon/shopping-cart.png" alt=""> BUY NOW
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </header>
 
     <main>
-        
 
+        <!-- ############# Casual Shoes Section  ############# -->
+        <section id="shoes" class="container mt-5 mb-5">
+            <h1 class="for_title_heading">CASUAL SHOES</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <!-- ##### column 1 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow">
+                        <img src="img/sneakers_shoes_1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Nike Shoe</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ##### column 2 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow">
+                        <img src="img/sneakers_shoes_2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Sneakers Skate Shoe</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ##### column 3 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow">
+                        <img src="img/sneakers_shoes_3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Sneakers Basketball shoe</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3 ">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ############# Formal shoes Section  ############# -->
+        <section id="formal_shoes" class="container mt-5 mb-5 pt-5 pb-5">
+            <h1 class="for_title_heading">Formal shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+                <!-- ##### column 1 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow shoe_card_2 ">
+                        <img src="img/shose_1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Prestige High-Cut Leather</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ##### column 2 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow shoe_card_2">
+                        <img src="img/shose_2.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Slip-On Formal Shoe</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ##### column 3 ##### -->
+                <div class="col">
+                    <div class="card shoe_card h-100 shadow shoe_card_2">
+                        <img src="img/shose_3.png" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Slip-On Formal Shoe</h3>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the
+                                printing and typesetting industry.</p>
+                        </div>
+                        <div class="card-footer shoe_card_footer d-flex justify-content-between pb-3 ">
+                            <h1 class="for_price">$234</h1>
+                            <!-- ########## Button ########## -->
+                            <button class="btn btn-primary bg-gradient for_btn">
+                                BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ############# Last Area ############# -->
+        <div class="container d-flex justify-content-end align-items-center last_cont ">
+
+            <div class="row ">
+
+                <div class="col-md-6 d-flex flex-column p-1">
+                    <!-- ################## row 1 ################## -->
+                    <div class="row row_icon m-1 p-2">
+                        <div class="col-3 w-25">
+                            <img src="icon/1_shop.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 w-75 p-2">
+                            <h2>Find the Perfect Fit</h2>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+
+                    <!-- ################## row 2 ################## -->
+                    <div class="row row_icon m-1 p-2">
+                        <div class="col-3 w-25">
+                            <img src="icon/2_add.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 w-75 p-2">
+                            <h2>Free Exchanges</h2>
+                            <p>One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+
+                    <!-- ################## row 3 ################## -->
+                    <div class="row row_icon m-1 p-2">
+                        <div class="col-3 w-25">
+                            <img src="icon/3_faq.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-3 w-75 p-2">
+                            <h2>Contact Our Seller</h2>
+                            <p>They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 for_last_img ">
+                    <img src="icon/showing.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
 
     </main>
 
+    <footer class="text-center mt-3">
+        <p>©2025. Panda Commerce. All rights reserved. Dhaka, Bangladesh.</p>
+    </footer>
+
 </body>
+
 </html>
